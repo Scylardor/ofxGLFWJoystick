@@ -36,7 +36,7 @@ public:
 
 
 	int getNumJoysticksAvailable(){ return numJoysticks;};
-	inline bool isJoystickAvailable(int joyID);
+	bool isJoystickAvailable(int joyID);
 	string getJoystickName(int joyID);
 
 	void drawDebug(int x, int y);
